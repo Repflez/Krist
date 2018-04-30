@@ -1,5 +1,5 @@
 {
-  "name": "Denabot Coins",
+  "name": "DenabotCoins",
   "version": "2.0.8",
   "description": "The new Krist node written in node.js.",
   "main": "main.js",
