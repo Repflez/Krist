@@ -31,7 +31,7 @@ module.exports = function(websockets) {
 	 * @apiParam (WebsocketParameter) {Number} id
 	 * @apiParam (WebsocketParameter) {String="work"} type
 	 *
-	 * @apiSuccess {Number} work The current Krist work (difficulty)
+	 * @apiSuccess {Number} work The current Coins work (difficulty)
 	 *
 	 * @apiSuccessExample {json} Success
 	 * {

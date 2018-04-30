@@ -41,9 +41,9 @@ module.exports = function(app) {
 	 *
 	 * @apiSuccess {Object} address
 	 * @apiSuccess {String} address.address The address.
-	 * @apiSuccess {Number} address.balance The amount of Krist currently owned by this address.
-	 * @apiSuccess {Number} address.totalin The total amount of Krist that has ever gone into this address.
-	 * @apiSuccess {Number} address.totalout The total amount of Krist that has ever gone out of this address.
+	 * @apiSuccess {Number} address.balance The amount of Coins currently owned by this address.
+	 * @apiSuccess {Number} address.totalin The total amount of Coins that has ever gone into this address.
+	 * @apiSuccess {Number} address.totalout The total amount of Coins that has ever gone out of this address.
 	 * @apiSuccess {Date} address.firstseen The date this address was first seen (when the first transaction to it was made).
 	 */
 
@@ -52,9 +52,9 @@ module.exports = function(app) {
 	 *
 	 * @apiSuccess {Object[]} addresses
 	 * @apiSuccess {String} addresses.address The address.
-	 * @apiSuccess {Number} addresses.balance The amount of Krist currently owned by this address.
-	 * @apiSuccess {Number} addresses.totalin The total amount of Krist that has ever gone into this address.
-	 * @apiSuccess {Number} addresses.totalout The total amount of Krist that has ever gone out of this address.
+	 * @apiSuccess {Number} addresses.balance The amount of Coins currently owned by this address.
+	 * @apiSuccess {Number} addresses.totalin The total amount of Coins that has ever gone into this address.
+	 * @apiSuccess {Number} addresses.totalout The total amount of Coins thats has ever gone out of this address.
 	 * @apiSuccess {Date} addresses.firstseen The date this address was first seen (when the first transaction to it was made).
 	 */
 
@@ -239,14 +239,14 @@ module.exports = function(app) {
 	 *          "total": 500,
 	 *          "addresses": [
 	 *              {
-	 *                  "address": "k2sdlnjo1m",
+	 *                  "address": "c2sdlnjo1m",
 	 *                  "balance": 762010,
 	 *                  "totalin": 11316,
 	 *                  "totalout": 783984,
 	 *                  "firstseen": "2016-01-24T05:08:14.000Z"
 	 *              },
 	 *              {
-	 *                  "address": "k7u9sa6vbf",
+	 *                  "address": "c7u9sa6vbf",
 	 *                  "balance": 505832,
 	 *                  "totalin": 547785,
 	 *                  "totalout": 41953,
@@ -288,7 +288,7 @@ module.exports = function(app) {
 	 * {
 	 *     "ok": true,
 	 *     "address": {
-	 *         "address": "kre3w0i79j",
+	 *         "address": "cre3w0i79j",
 	 *         "balance": 86945,
 	 *         "totalin": 123364,
 	 *         "totalout": 38292,
@@ -341,7 +341,7 @@ module.exports = function(app) {
      *     "names": [
      *         {
      *             "name": "supercoolname",
-     *             "owner": "kre3w0i79j",
+     *             "owner": "cre3w0i79j",
      *             "registered": "2016-01-30T15:45:55.000Z",
      *             "updated": "2016-01-30T15:45:55.000Z",
      *             "a": null
@@ -402,8 +402,8 @@ module.exports = function(app) {
      *     "transactions": [
      *         {
      *             "id": 153197,
-     *             "from": "kxxhsp1uzh",
-     *             "to": "kre3w0i79j",
+     *             "from": "cxxhsp1uzh",
+     *             "to": "cre3w0i79j",
      *             "value": 75,
      *             "time": "2016-02-02T23:30:51.000Z",
      *             "name": null,
@@ -411,8 +411,8 @@ module.exports = function(app) {
      *         },
      *         {
      *             "id": 153196,
-     *             "from": "kre3w0i79j",
-     *             "to": "kxxhsp1uzh",
+     *             "from": "cre3w0i79j",
+     *             "to": "cxxhsp1uzh",
      *             "value": 50,
      *             "time": "2016-02-02T23:30:39.000Z",
      *             "name": null,

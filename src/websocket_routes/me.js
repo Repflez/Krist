@@ -49,7 +49,7 @@ module.exports = function(websockets) {
 	 *     "id": 1,
 	 *     "isGuest": false,
 	 *     "address": {
-	 *         "address": "knggsn1d2e",
+	 *         "address": "cnggsn1d2e",
 	 *         "balance": 0,
 	 *         "totalin": 0,
 	 *         "totalout": 0,

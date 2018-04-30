@@ -1,5 +1,5 @@
 {
-  "name": "Krist",
+  "name": "Denabot Coins",
   "version": "2.0.8",
   "description": "The new Krist node written in node.js.",
   "main": "main.js",
@@ -47,9 +47,9 @@
     "yesno": "0.0.1"
   },
   "apidoc": {
-    "title": "Krist",
-    "url": "http://krist.ceriat.net",
-    "description": "This is the documentation for the new Krist API.",
+    "title": "Denabot Coins",
+    "url": "https://coins.denabot.pw",
+    "description": "This is the documentation for the Denabot Coins API.",
     "order": [
       "AddressGroup",
       "GetAddress",

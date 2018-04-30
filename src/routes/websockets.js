@@ -48,7 +48,7 @@ module.exports = function(app) {
 									ok: true,
 									type: "hello",
 									server_time: new Date(),
-									motd: "Welcome to Krist!",
+									motd: "Welcome to Denabot Coins!",
 									last_block: blocks.blockToJSON(block),
 									work: krist.getWork()
 								});
@@ -169,7 +169,7 @@ module.exports = function(app) {
 	 * @apiSuccessExample {json} Success
 	 * {
 	 *     "ok": true,
-	 *     "url": "wss://krist.ceriat.net/ba90ad70-cdfa-11e5-8cca-e1d2a26eabaf",
+	 *     "url": "wss://coins.denabot.pw/ba90ad70-cdfa-11e5-8cca-e1d2a26eabaf",
 	 *     "expires": 30
      * }
 	 */
@@ -192,7 +192,7 @@ module.exports = function(app) {
 
 				res.json({
 					ok: true,
-					url: (config.websocketURL || 'wss://krist.ceriat.net') + '/' + token,
+					url: (config.websocketURL || 'wss://coins.denabot.pw') + '/' + token,
 					expires: 30
 				});
 			});
@@ -202,7 +202,7 @@ module.exports = function(app) {
 
 			res.json({
 				ok: true,
-				url: (config.websocketURL || 'wss://krist.ceriat.net') + '/' + token,
+				url: (config.websocketURL || 'wss://coins.denabot.pw') + '/' + token,
 				expires: 30
 			});
 		}

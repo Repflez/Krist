@@ -381,14 +381,14 @@ module.exports = function(app) {
      *     "names": [
      *         {
      *             "name": "0",
-     *             "owner": "k9qyx784k7",
+     *             "owner": "c9qyx784k7",
      *             "registered": "2015-05-10T20:56:37.000Z",
      *             "updated": "2015-05-24T22:54:21.000Z",
      *             "a": null
      *         },
      *         {
      *             "name": "00",
-     *             "owner": "k9qyx784k7",
+     *             "owner": "c9qyx784k7",
      *             "registered": "2015-05-14T14:35:40.000Z",
      *             "updated": "2015-05-24T22:47:56.000Z",
      *             "a": null
@@ -438,14 +438,14 @@ module.exports = function(app) {
      *     "names": [
      *         {
      *             "name": "0",
-     *             "owner": "k9qyx784k7",
+     *             "owner": "c9qyx784k7",
      *             "registered": "2015-05-10T20:56:37.000Z",
      *             "updated": "2015-05-24T22:54:21.000Z",
      *             "a": null
      *         },
      *         {
      *             "name": "00",
-     *             "owner": "k9qyx784k7",
+     *             "owner": "c9qyx784k7",
      *             "registered": "2015-05-14T14:35:40.000Z",
      *             "updated": "2015-05-24T22:47:56.000Z",
      *             "a": null
@@ -486,7 +486,7 @@ module.exports = function(app) {
      *     "ok": true,
      *     "name": {
      *         "name": "00",
-     *         "owner": "k9qyx784k7",
+     *         "owner": "c9qyx784k7",
      *         "registered": "2015-05-14T14:35:40.000Z",
      *         "updated": "2015-05-24T22:47:56.000Z",
      *         "a": null
@@ -567,7 +567,7 @@ module.exports = function(app) {
      *     "ok": true,
      *     "name": {
      *         "name": "example",
-     *         "owner": "kre3w0i79j",
+     *         "owner": "cre3w0i79j",
      *         "registered": "2016-02-06T14:01:19.000Z",
      *         "updated": "2016-02-06T14:08:36.000Z",
      *         "a": null,
@@ -627,10 +627,10 @@ module.exports = function(app) {
      *     "ok": true,
      *     "name": {
      *         "name": "example",
-     *         "owner": "kre3w0i79j",
+     *         "owner": "cre3w0i79j",
      *         "registered": "2016-02-06T14:01:19.000Z",
      *         "updated": "2016-02-06T14:08:36.000Z",
-     *         "a": "krist.ceriat.net",
+     *         "a": "coins.denabot.pw",
      *     }
      * }
 	 *
@@ -667,10 +667,10 @@ module.exports = function(app) {
      *     "ok": true,
      *     "name": {
      *         "name": "example",
-     *         "owner": "kre3w0i79j",
+     *         "owner": "cre3w0i79j",
      *         "registered": "2016-02-06T14:01:19.000Z",
      *         "updated": "2016-02-06T14:08:36.000Z",
-     *         "a": "krist.ceriat.net",
+     *         "a": "coins.denabot.pw",
      *     }
      * }
 	 *

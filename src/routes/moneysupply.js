@@ -41,9 +41,9 @@ module.exports = function(app) {
 	 * @apiGroup MiscellaneousGroup
 	 * @apiVersion 2.0.0
 	 *
-	 * @apiDescription Returns the amount of Krist currently in circulation.
+	 * @apiDescription Returns the amount of Coins currently in circulation.
 	 *
-	 * @apiSuccess {Number} money_supply The amount of Krist in circulation.
+	 * @apiSuccess {Number} money_supply The amount of Coins in circulation.
 	 *
 	 * @apiSuccessExample {json} Success
 	 * {

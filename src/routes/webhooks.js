@@ -100,9 +100,9 @@ module.exports = function(app) {
      *         "id": 15,
      *         "event": "transaction",
      *         "addresses": null,
-     *         "url": "http://lemmmy.pw/kristtest.php",
+     *         "url": "https://denabot.pw/coinstest.php",
      *         "method": "get",
-     *         "owner": "kxxhsp1uzh"
+     *         "owner": "cxxhsp1uzh"
      *     }
      * }
      *
@@ -165,9 +165,9 @@ module.exports = function(app) {
      *             "id": 1,
      *             "event": "name",
      *             "addresses": null,
-     *             "url": "http://lemmmy.pw/kristtest.php",
+     *             "url": "https://denabot.pw/coinstest.php",
      *             "method": "get",
-     *             "owner": "kxxhsp1uzh"
+     *             "owner": "cxxhsp1uzh"
      *         },
      *         ...
      *
@@ -216,9 +216,9 @@ module.exports = function(app) {
      *             "id": 1,
      *             "event": "name",
      *             "addresses": null,
-     *             "url": "http://lemmmy.pw/kristtest.php",
+     *             "url": "https://denabot.pw.pw/coinstest.php",
      *             "method": "get",
-     *             "owner": "kxxhsp1uzh"
+     *             "owner": "cxxhsp1uzh"
      *         },
      *         ...
 	 *

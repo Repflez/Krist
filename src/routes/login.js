@@ -39,7 +39,7 @@ module.exports = function(app) {
 	 * {
 	 *     "ok": true,
 	 *     "authed": true,
-	 *     "address": "kre3w0i79j"
+	 *     "address": "cre3w0i79j"
      * }
 	 *
 	 * @apiSuccessExample {json} Success, Auth Failed

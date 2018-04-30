@@ -36,7 +36,7 @@ module.exports = function(app) {
 	 * @apiGroup MiscellaneousGroup
 	 * @apiVersion 2.0.5
 	 *
-	 * @apiSuccess {Number} work The current Krist work (difficulty)
+	 * @apiSuccess {Number} work The current Coins work (difficulty)
 	 *
 	 * @apiSuccessExample {json} Success
 	 * {

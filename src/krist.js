@@ -33,12 +33,12 @@ var utils       = require('./utils.js'),
 	fs          = require('fs'),
 	errors      = require('./errors/errors.js');
 
-var addressRegex = /^(?:k[a-z0-9]{9}|[a-f0-9]{10})$/i;
-var addressListRegex = /^(?:k[a-z0-9]{9}|[a-f0-9]{10})(?:,(?:k[a-z0-9]{9}|[a-f0-9]{10}))*$/i;
+var addressRegex = /^(?:c[a-z0-9]{9}|[a-f0-9]{10})$/i;
+var addressListRegex = /^(?:c[a-z0-9]{9}|[a-f0-9]{10})(?:,(?:k[a-z0-9]{9}|[a-f0-9]{10}))*$/i;
 var nameRegex = /^[a-z0-9]{1,64}$/i;
 var aRecordRegex = /^[^\s\.\?\#].[^\s]*$/i;
 
-Krist.nameMetaRegex = /^(?:([a-z0-9-_]{1,32})@)?([a-z0-9]{1,64})\.kst$/i;
+Krist.nameMetaRegex = /^(?:([a-z0-9-_]{1,32})@)?([a-z0-9]{1,64})\.cns$/i;
 
 Krist.work = 18750; // work as of the writing of this line. this is used purely for backup.
 Krist.freeNonceSubmission = false;
@@ -175,7 +175,7 @@ Krist.getSecondsPerBlock = function() {
 
 Krist.makeV2Address = function(key) {
 	var chars = ['', '', '', '', '', '', '', '', ''];
-	var prefix = 'k';
+	var prefix = 'c';
 	var hash = utils.sha256(utils.sha256(key));
 
 	for (var i = 0; i <= 8; i++) {

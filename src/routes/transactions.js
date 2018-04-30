@@ -43,7 +43,7 @@ module.exports = function(app) {
 	 * 						a block mining reward, or `"a"` if it was a name's A record change.
 	 * @apiSuccess {String} transaction.to The recipient of this transaction. This may be `"name"` if the transaction
 	 * 						was a name purchase.
-	 * @apiSuccess {Number} transaction.value The amount of Krist transferred in this transaction. Can be `0`, notably
+	 * @apiSuccess {Number} transaction.value The amount of Coins transferred in this transaction. Can be `0`, notably
 	 * 						if the transaction was a name's A record change.
 	 * @apiSuccess {Date} transaction.time The time this transaction this was made.
 	 * @apiSuccess {String} [transaction.name] The name associated with this transaction, or null.
@@ -59,7 +59,7 @@ module.exports = function(app) {
 	 * 						a block mining reward, or `"a"` if it was a name's A record change.
 	 * @apiSuccess {String} transactions.to The recipient of this transaction. This may be `"name"` if the transaction
 	 *						was a name purchase.
-	 * @apiSuccess {Number} transactions.value The amount of Krist transferred in this transaction. Can be `0`, notably
+	 * @apiSuccess {Number} transactions.value The amount of Coins transferred in this transaction. Can be `0`, notably
 	 * 						if the transaction was a name's A record change.
 	 * @apiSuccess {Date} transactions.time The time this transaction this was made.
 	 * @apiSuccess {String} [transactions.name] The name associated with this transaction, or null.
@@ -175,7 +175,7 @@ module.exports = function(app) {
 				}
 
 				if (krist.nameMetaRegex.test(req.query.q.toLowerCase())) {
-					console.log("d");	
+					console.log("d");
 
 					var nameInfo = krist.nameMetaRegex.exec(req.query.q.toLowerCase());
 
@@ -297,7 +297,7 @@ module.exports = function(app) {
      *         {
      *             "id": 153287,
      *             "from": null,
-     *             "to": "kre3w0i79j",
+     *             "to": "cre3w0i79j",
      *             "value": 14,
      *             "time": "2016-02-06T19:22:41.000Z",
      *             "name": null,
@@ -305,7 +305,7 @@ module.exports = function(app) {
      *         },
      *         {
      *             "id": 153286,
-     *             "from": "kxxhsp1uzh",
+     *             "from": "cxxhsp1uzh",
      *             "to": "name",
      *             "value": 500,
      *             "time": "2016-02-06T14:01:19.000Z",
@@ -348,8 +348,8 @@ module.exports = function(app) {
      *     "ok": true,
      *     "transaction": {
      *         "id": 153282,
-     *         "from": "kh9w36ea1b",
-     *         "to": "kutlg1kzhz",
+     *         "from": "ch9w36ea1b",
+     *         "to": "cutlg1kzhz",
      *         "value": 56610,
      *         "time": "2016-02-03T19:15:32.000Z",
      *         "name": null,

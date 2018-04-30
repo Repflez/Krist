@@ -38,7 +38,7 @@ module.exports = function(app) {
 	 * @apiSuccessExample {json} Success
 	 * {
 	 *     "ok": true,
-	 *     "motd": "Welcome to Krist!",
+	 *     "motd": "Welcome to Coins!",
 	 *     "psa": "child abuse is bad!!",
 	 *     "schrodingers_cat": "dead",
 	 *     "set": "2016-01-24T15:56:19.231Z"
@@ -49,7 +49,7 @@ module.exports = function(app) {
 			if (err) {
 				return res.json({
 					ok: true,
-					motd: 'Welcome to Krist!'
+					motd: 'Welcome to Coins!'
 				});
 			}
 
